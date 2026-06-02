@@ -18,3 +18,5 @@ for page in file:
             
     else:
         final_document += page.get_text()
+with open("final_document.txt", "w", encoding="utf-8") as f:
+    f.write(final_document)
