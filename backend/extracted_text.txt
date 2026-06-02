@@ -1,0 +1,243 @@
+Standard Terms and Conditions 
+ 
+Following terms and conditions ("Standard Terms and Conditions") shall apply to 
+the “Windows Azure Trade-In Scheme” detailed below (the “Scheme”).   
+ 
+1. For the purposes of the Scheme, the term Microsoft, shall mean:  
+Microsoft Regional Sales Corporation, Singapore Branch. 
+ 
+2. “Scheme Period”; means [20th March, 2014] to [30th June, 2014] (both days 
+inclusive). Microsoft reserves all rights to alter Scheme Period, as it deems 
+necessary, without any prior notice to or approval from any party. 
+ 
+3. The Scheme shall be valid in India only. 
+ 
+4. “Participant”; means any Small and Medium Business category customer having 
+PC count between 5 to 100, having business in India who obtains first time Azure 
+subscription online from Microsoft during the Scheme Period and wants to 
+participate in the Scheme.  
+ 
+ 
+ 
+5. Trade In Scheme Registration Process:  
+a) Participants must call Scheme Toll Free calling number 1 800 307 04660 or Log 
+into www.microsoft.com/india/movetoazure site to register for their interest.   
+b) Upon registration, the Scheme Helpdesk will reach out to the Participant within 7 
+working days and: 
+I. 
+Understand & assess cloud solution requirements; 
+II. 
+Undertake demo of the Windows Azure product and Scheme features to 
+Participant either on phone or through Lync call. 
+III. 
+Helpdesk will obtain an email consent from Participant and will pass the 
+lead to Microsoft Recycle Partner (Recycle Partner) for evaluating the 
+existing hardware of the Participant and quote for the trade in of the 
+hardware.   
+ 
+c) Recycle Partner will directly contact the Participant to estimate and may offer a 
+purchase price for existing servers/hardware belonging to Participant. The 
+trade-in of hardware may have VAT implications and/or attract other levies, eg 
+octroi etc.   It is between the Participant and Recycle Partner to ensure 
+compliance with any tax laws, and Microsoft will not intervene or be held 
+responsible for non-compliance by either party.   
+d) Participant’s transactions with Recycle Partner will be on principal to principal 
+basis, and Microsoft has no role in influencing the decision of the Recycle Partner 
+to purchase existing hardware of the Participant, or the purchase price for the 
+trade in. Any disputes between Recycle Partner and Participant must be resolved 
+between the parties and Microsoft cannot be made party to the same.    
+e] Recycle Partner will pay the purchase consideration value directly to the 
+Participant and will collect the existing hardware from the Participant. 
+Participant agree to issue necessary gate passes, approvals and letters to Recycle 
+Partner for ease in delivery of the traded-in hardware to the Recycle Partner.   
+f] Recycle Partner will issue an acknowledgment mentioning the details of 
+hardware traded in by the Participant, and the trade-in price paid to the 
+Participant.  Participant agrees that Recycle Partner may share a copy of this 
+acknowledgment letter to Microsoft, and/or to its designated agency.   
+g] This Scheme and Scheme Benefits are available only through the Microsoft 
+identified Recycle Partners in India only.   
+h] Participant will call the Scheme Helpdesk to confirm receipt of the 
+acknowledgement for the trade-in and activation of the Scheme benefits as 
+described in the table below 
+ 
+Value of hardware 
+traded-in, as per 
+Acknowledgement 
+issued by Recycle 
+partner 
+Sign-up 
+for 
+Minimum 
+commitment 
+of 
+Windows Azure 
+for One Year for 
+the 
+following 
+amounts 
+(USD) 
+to 
+include 
+Upfront 
+payment 
+Additional Credit 
+towards 
+Windows 
+Azure 
+services  
+Overall 
+Scheme 
+Benefits 
+for 
+Participants 
+$200-$1000 
+$3000 
+Not 
+exceeding 
+$500 per month, 
+against the billable 
+subscription 
+amount for first 2 
+months  
+$4000 worth of 
+Azure 
+subscription 
+for 
+$3000 
+$1000-$3000 
+$10000 
+Not 
+exceeding 
+$1000 per month, 
+against the billable 
+subscription 
+amount for first 4 
+months 
+$14000 worth of 
+Azure 
+subscription 
+for 
+$10000 
+$3000-$5000 
+$15000 
+Not 
+exceeding 
+$1500 per month, 
+against the billable 
+subscription 
+amount for first 4 
+months 
+$21000 worth of 
+Azure 
+subscription 
+for 
+$15000 
+$5000-$10000 
+$25000 
+Not 
+exceeding 
+$3000 per month, 
+against the billable 
+subscription 
+amount for first 4 
+months 
+$37000 worth of 
+Azure 
+subscription 
+for 
+$25000 
+ 
+i. Additional credits for Windows Azure Services offered as per Scheme Benefit will 
+not be carried forward or adjusted beyond the initial duration specified above.  
+E.g. if billing in month 1 is $400 and the credit amount ($500) exceeds the billing, the 
+customer would be charged nil, and the unutilized credit of $100 will not carry forward 
+to month 2 or beyond. 
+ii. Azure subscription has to be 12 month upfront payment commitment plan, and 
+the Azure Trade-in credit only applies to the 1st subscription purchase in one 
+account.  
+iii. Additional credits for Windows Azure Services would not be payable in cash, 
+and would be available as an adjustment only against subscription billing 
+for Azure Services, as per the table above. To further clarify, additional 
+credits for Azure Services cannot be adjusted against subscription billing for 
+Office 365, CRM Online or other online services direct by Microsoft to the 
+Participant.  
+iv. Participant is required to create first time Windows Azure subscription with 
+minimum commitment threshold as per above table to avail scheme benefit. 
+v. Participation in this scheme is optional, and customers can continue to buy Azure 
+from Microsoft without any Scheme benefits.  
+vi. 
+All queries related to the Scheme can be written to program cell    
+movetoazure@machwan.com  
+ 
+ 
+ 
+Scheme General Terms and Conditions: 
+ 
+1. For calculation of Benefits, only the parent organization of a Participant would be 
+considered.  Purchase of Eligible Products by sister concerns would not be counted or 
+eligible to be redeemed. The Participant shall not be eligible to obtain Benefits under 
+the Scheme if the Participant has obtained or is eligible to obtain similar benefits under 
+any other scheme pertaining to the Eligible Product. 
+ 
+2. Microsoft shall not be responsible for errors in online registrations. 
+ 
+3. Participation in the Scheme shall be construed as an acceptance of the Terms and 
+Conditions stipulated herein. Any breach or default by a Participant of any of the Terms 
+and Conditions herein shall result in immediate disqualification without notice.  
+ 
+4. The Participant undertakes and declares that, it does not use or sell any unauthorized 
+or pirated Microsoft software. In the event, a Participant is found to be doing so (either 
+during or subsequent to the Scheme Period), the entry of such Participant shall be 
+immediately disqualified from the Scheme and cash equivalent of any Benefits awarded 
+to the Participant under the Scheme shall become immediately due to Microsoft. 
+Microsoft shall be entitled to deduct such amounts from any other amounts due to 
+Participant under this Scheme or any other transaction. This does not restrict Microsoft 
+and its Affiliates to initiate further legal actions, against the Participant, using other 
+legal remedies available to them under applicable laws. 
+ 
+5. Microsoft reserves the right to demand return of the Benefits or adjust the amount of 
+such Benefits given by Microsoft to Participant under the Scheme from any moneys 
+owed to Microsoft by such Participant in case Eligible Product obtained during the 
+Scheme Period are returned to Microsoft and/ or Microsoft does not receive the fees for 
+such Eligible Products. 
+ 
+6. Benefits shall neither be transferable nor exchangeable for cash or otherwise.  Mere 
+participation in the Scheme shall not entitle a Participant to the Benefits. No other 
+person or agent can claim the Benefits on behalf of the Participant. 
+ 
+7. Taxes, insurance, incidental costs on the Benefits shall be fully borne by the selected 
+Participants.  
+ 
+8. Subject to any applicable law (a) All warranties of any kind whatsoever, whether 
+express or implied, are hereby expressly disclaimed by Microsoft including, but not 
+limited to, meeting of the Participant's requirements or aspirations, timeliness, security, 
+the results or reliability of any scheme, or the delivery, quality, quantity, 
+merchantability, fitness for use or non-infringement in respect of any goods, services, 
+benefits or awards acquired or obtained through the Scheme or any transactions 
+effected through the Scheme; (b) The Participant expressly agrees that his/her 
+participation in the Scheme offered by Microsoft is at the Participant's sole risk and is 
+governed by the Terms and Conditions herein; and (c) No advice or information 
+whether by representations, oral, written or pictorial derived from the website or 
+through the Scheme shall be construed to mean the giving of any warranty of any kind 
+by Microsoft. 
+ 
+9. Microsoft also reserves all rights with respect to, withdraw, alter terms and conditions, 
+Benefits, and discontinue Scheme at any stage without any liability whatsoever. 
+Participants are requested to refer to such other terms and conditions, if any, which 
+may be displayed on-line or intimated separately as Microsoft considers fit. However, 
+no obligation is cast on Microsoft to separately intimate each individual Participant 
+with regard to such additional terms and conditions. The decision on the Participants 
+selected by Microsoft shall be final and binding and no correspondence or 
+communication shall be entertained in this regard 
+ 
+10. Governing Law and Dispute Resolution Mechanism: 
+The Scheme shall be governed by and construed in accordance with the laws of 
+Singapore. Any dispute arising out of or in connection with this Scheme shall be 
+referred to and finally resolved by arbitration in Singapore in accordance with the 
+Arbitration Rules of the Singapore International Arbitration Centre (“SIAC”), which 
+rules are deemed to be incorporated by reference into this Scheme. The tribunal shall 
+consist of one arbitrator to be appointed by the Chairman of SIAC. The language of the 
+arbitration shall be English. The decision of the arbitrator shall be final, binding and 
+incontestable and may be used as a basis for judgment thereon in India or elsewhere. 
+ 
+  
