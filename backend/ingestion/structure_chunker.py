@@ -33,6 +33,3 @@ for sectionid, section in enumerate(sections):
                 "content": sub_chunk
             })
             chunk_id += 1
-
-for chunk in chunks:
-    print(f'{chunk}"\n"')
