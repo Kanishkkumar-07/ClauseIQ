@@ -15,6 +15,8 @@ for page in file:
         for table in table.tables :
             table_data = table.extract()
             final_document += table_to_text(table_data)
+        page_text = page.get_text()
+        final_document += page_text
             
     else:
         final_document += page.get_text()
