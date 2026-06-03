@@ -1,0 +1,23 @@
+# Replace raw table text with normalized table while preserving surrounding page text
+#Generalize section detection.
+
+Current:
+    Detects clauses using:
+        ^\d+\.
+
+Future:
+    Support:
+        1.
+        1)
+        a.
+        a)
+        I.
+        II.
+        III.
+        i.
+        ii.
+        iii.
+        SECTION X
+        ARTICLE X
+
+    Build hierarchical clause detection.

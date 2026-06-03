@@ -1,4 +1,3 @@
-from pdf_loader import extract_text_from_pdf
 from table_normalizer import table_to_text
 from pathlib import Path 
 import fitz
@@ -20,5 +19,7 @@ for page in file:
             
     else:
         final_document += page.get_text()
-with open("final_document.txt", "w", encoding="utf-8") as f:
+
+output_path = Path(__file__).parent / "final_document.txt"
+with open(output_path, "w", encoding="utf-8") as f:
     f.write(final_document)

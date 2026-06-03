@@ -101,7 +101,114 @@ Row 4:
 
  Overall Scheme Benefits for Participants: $37000 worth of Azure subscription for $25000
 
- v. Participation in this scheme is optional, and customers can continue to buy Azure 
+ h] Participant will call the Scheme Helpdesk to confirm receipt of the 
+acknowledgement for the trade-in and activation of the Scheme benefits as 
+described in the table below 
+ 
+Value of hardware 
+traded-in, as per 
+Acknowledgement 
+issued by Recycle 
+partner 
+Sign-up 
+for 
+Minimum 
+commitment 
+of 
+Windows Azure 
+for One Year for 
+the 
+following 
+amounts 
+(USD) 
+to 
+include 
+Upfront 
+payment 
+Additional Credit 
+towards 
+Windows 
+Azure 
+services  
+Overall 
+Scheme 
+Benefits 
+for 
+Participants 
+$200-$1000 
+$3000 
+Not 
+exceeding 
+$500 per month, 
+against the billable 
+subscription 
+amount for first 2 
+months  
+$4000 worth of 
+Azure 
+subscription 
+for 
+$3000 
+$1000-$3000 
+$10000 
+Not 
+exceeding 
+$1000 per month, 
+against the billable 
+subscription 
+amount for first 4 
+months 
+$14000 worth of 
+Azure 
+subscription 
+for 
+$10000 
+$3000-$5000 
+$15000 
+Not 
+exceeding 
+$1500 per month, 
+against the billable 
+subscription 
+amount for first 4 
+months 
+$21000 worth of 
+Azure 
+subscription 
+for 
+$15000 
+$5000-$10000 
+$25000 
+Not 
+exceeding 
+$3000 per month, 
+against the billable 
+subscription 
+amount for first 4 
+months 
+$37000 worth of 
+Azure 
+subscription 
+for 
+$25000 
+ 
+i. Additional credits for Windows Azure Services offered as per Scheme Benefit will 
+not be carried forward or adjusted beyond the initial duration specified above.  
+E.g. if billing in month 1 is $400 and the credit amount ($500) exceeds the billing, the 
+customer would be charged nil, and the unutilized credit of $100 will not carry forward 
+to month 2 or beyond. 
+ii. Azure subscription has to be 12 month upfront payment commitment plan, and 
+the Azure Trade-in credit only applies to the 1st subscription purchase in one 
+account.  
+iii. Additional credits for Windows Azure Services would not be payable in cash, 
+and would be available as an adjustment only against subscription billing 
+for Azure Services, as per the table above. To further clarify, additional 
+credits for Azure Services cannot be adjusted against subscription billing for 
+Office 365, CRM Online or other online services direct by Microsoft to the 
+Participant.  
+iv. Participant is required to create first time Windows Azure subscription with 
+minimum commitment threshold as per above table to avail scheme benefit. 
+v. Participation in this scheme is optional, and customers can continue to buy Azure 
 from Microsoft without any Scheme benefits.  
 vi. 
 All queries related to the Scheme can be written to program cell    
