@@ -1,6 +1,7 @@
 from pathlib import Path 
 import re
 from langchain_text_splitters import RecursiveCharacterTextSplitter
+import json
 
 file_path = Path(__file__).parent / "final_document.txt"
 
@@ -33,3 +34,8 @@ for sectionid, section in enumerate(sections):
                 "content": sub_chunk
             })
             chunk_id += 1
+
+output_path = Path(__file__).parent / "chunks.json"
+
+with open(output_path, "w") as f:
+    json.dump(chunks, f, indent = 4)
