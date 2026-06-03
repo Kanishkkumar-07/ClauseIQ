@@ -26,7 +26,7 @@ for sectionid, section in enumerate(sections):
         chunk_id += 1
     else:
         sub_chunks = text_splitter.split_text(section)
-        for sub_chunk in enumerate(sub_chunks):
+        for sub_chunk in sub_chunks:
             chunks.append({
                 "chunk_id": chunk_id,
                 "section_id": sectionid + 1,
