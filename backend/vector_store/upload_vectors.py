@@ -15,7 +15,7 @@ qdrant_client = QdrantClient(
 )
 
 client = genai.Client(
-    api_key = os.getenv("GOOGLE_API_KEY")
+    api_key = os.getenv("EMBEDDING_API_KEY")
 )
 
 INPUT_FILE = r'Z:\Coding\ML\ClauseIQ\backend\ingestion\chunks.json'
