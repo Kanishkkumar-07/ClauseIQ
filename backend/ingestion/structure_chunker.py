@@ -1,41 +1,66 @@
-from pathlib import Path 
 import re
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-import json
 
-file_path = Path(__file__).parent / "final_document.txt"
 
-with open(file_path, "r", encoding = "utf-8") as f:
-    text = f.read()
+def create_chunks(text: str):
 
-sections = re.findall(r'^\d+.\s.*?(?=^\d+.\s|\Z)', text, re.MULTILINE | re.DOTALL)
+    sections = re.findall(
+        r'^\d+\.\s.*?(?=^\d+\.\s|\Z)',
+        text,
+        re.MULTILINE | re.DOTALL
+    )
 
-text_splitter = RecursiveCharacterTextSplitter(chunk_size = 1000, chunk_overlap = 200)
+    text_splitter = RecursiveCharacterTextSplitter(
+        chunk_size=1000,
+        chunk_overlap=200
+    )
 
-chunks = []
-chunk_id = 1
+    chunks = []
+    chunk_id = 1
 
-for sectionid, section in enumerate(sections):
-    if(len(section) <= 1000):
-        chunks.append({
-            "chunk_id": chunk_id,
-            "section_id": sectionid + 1,
-            "chunk_type": "section",
-            "content": section
-        })
-        chunk_id += 1
-    else:
-        sub_chunks = text_splitter.split_text(section)
-        for sub_chunk in sub_chunks:
+    for section_id, section in enumerate(sections, start=1):
+
+        if len(section) <= 1000:
+
             chunks.append({
                 "chunk_id": chunk_id,
-                "section_id": sectionid + 1,
+                "section_id": section_id,
                 "chunk_type": "section",
-                "content": sub_chunk
+                "content": section
             })
+
             chunk_id += 1
 
-output_path = Path(__file__).parent / "chunks.json"
+        else:
 
-with open(output_path, "w") as f:
-    json.dump(chunks, f, indent = 4)
+            sub_chunks = text_splitter.split_text(
+                section
+            )
+
+            for sub_chunk in sub_chunks:
+
+                chunks.append({
+                    "chunk_id": chunk_id,
+                    "section_id": section_id,
+                    "chunk_type": "section",
+                    "content": sub_chunk
+                })
+
+                chunk_id += 1
+
+    return chunks
+
+
+if __name__ == "__main__":
+
+    with open(
+        "final_document.txt",
+        "r",
+        encoding="utf-8"
+    ) as f:
+
+        text = f.read()
+
+    chunks = create_chunks(text)
+
+    print(f"Total chunks: {len(chunks)}")
