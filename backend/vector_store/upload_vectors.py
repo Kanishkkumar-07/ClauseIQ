@@ -18,7 +18,7 @@ client = genai.Client(
 )
 
 
-def upload_vectors(chunks):
+def upload_vectors(chunks, document_id):
 
     if not chunks:
         raise ValueError(
@@ -50,7 +50,8 @@ def upload_vectors(chunks):
             payload={
                 "content": chunk["content"],
                 "section_id": chunk["section_id"],
-                "chunk_type": chunk["chunk_type"]
+                "chunk_type": chunk["chunk_type"],
+                "document_id": document_id
             }
         )
 

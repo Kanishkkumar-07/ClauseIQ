@@ -8,7 +8,7 @@ router = APIRouter()
 
 def chat(request: ChatRequest):
 
-    answer = ask_question(request.question)
+    answer = ask_question(request.question, request.document_id)
 
     return ChatResponse(
         answer = answer

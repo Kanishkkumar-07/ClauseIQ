@@ -10,7 +10,7 @@ router = APIRouter()
 async def upload(file : UploadFile = File(...)):
     upload_dir = Path("uploads")
     upload_dir.mkdir(exist_ok=True)
-
+    document_id = file.filename
     file_path = upload_dir / file.filename
 
     with open(file_path, "wb") as f:
@@ -20,10 +20,11 @@ async def upload(file : UploadFile = File(...)):
 
     chunks = create_chunks(text)
 
-    total_points = upload_vectors(chunks)
+    total_points = upload_vectors(chunks,document_id)
 
     return{
         "filename" : file.filename,
+        "document_id": document_id,
         "Points" : total_points
     }
 

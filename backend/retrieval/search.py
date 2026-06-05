@@ -1,5 +1,6 @@
 from google import genai
 from qdrant_client import QdrantClient
+from qdrant_client.models import FieldCondition, Filter, MatchValue
 from dotenv import load_dotenv
 import os
 
@@ -19,7 +20,7 @@ qdrant = QdrantClient(
 )
 
 
-def ask_question(query: str):
+def ask_question(query: str, document_id):
 
     response = Client.models.embed_content(
         model = "models/gemini-embedding-001",
@@ -31,7 +32,17 @@ def ask_question(query: str):
     results = qdrant.query_points(
         collection_name = "ClauseIQ",
         query = query_vector,
-        limit = 5
+        limit = 5,
+        query_filter=Filter(
+            must=[
+                FieldCondition(
+                    key="document_id",
+                    match=MatchValue(
+                        value=document_id
+                    )
+                )
+            ]
+        )
     )
 
     context = "\n\n".join(
