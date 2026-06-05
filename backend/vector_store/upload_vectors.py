@@ -1,5 +1,5 @@
 import os
-
+import uuid
 from google import genai
 from dotenv import load_dotenv
 
@@ -43,7 +43,7 @@ def upload_vectors(chunks, document_id):
     ):
 
         point = PointStruct(
-            id=chunk["chunk_id"],
+            id = str(uuid.uuid4()),
 
             vector=embedding.values,
 

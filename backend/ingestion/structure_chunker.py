@@ -2,12 +2,12 @@ import re
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 
-def create_chunks(text: str):
+def create_chunks(markdown: str):
 
-    sections = re.findall(
-        r'^\d+\.\s.*?(?=^\d+\.\s|\Z)',
-        text,
-        re.MULTILINE | re.DOTALL
+    sections = re.split(
+        r'(?=^#{1,6}\s)',
+        markdown,
+        flags=re.MULTILINE
     )
 
     text_splitter = RecursiveCharacterTextSplitter(
@@ -18,7 +18,15 @@ def create_chunks(text: str):
     chunks = []
     chunk_id = 1
 
-    for section_id, section in enumerate(sections, start=1):
+    for section_id, section in enumerate(
+        sections,
+        start=1
+    ):
+
+        section = section.strip()
+
+        if not section:
+            continue
 
         if len(section) <= 1000:
 
@@ -42,7 +50,7 @@ def create_chunks(text: str):
                 chunks.append({
                     "chunk_id": chunk_id,
                     "section_id": section_id,
-                    "chunk_type": "section",
+                    "chunk_type": "sub_section",
                     "content": sub_chunk
                 })
 
@@ -53,14 +61,19 @@ def create_chunks(text: str):
 
 if __name__ == "__main__":
 
-    with open(
-        "final_document.txt",
-        "r",
-        encoding="utf-8"
-    ) as f:
+    from ingestion.markdown_ingest import (
+        pdf_to_markdown
+    )
 
-        text = f.read()
+    markdown = pdf_to_markdown(
+        "uploads/TermsandConditionsofSale.pdf"
+    )
 
-    chunks = create_chunks(text)
+    chunks = create_chunks(
+        markdown
+    )
 
     print(f"Total chunks: {len(chunks)}")
+
+    print("\nFirst Chunk:\n")
+    print(chunks[0]["content"][:1000])
