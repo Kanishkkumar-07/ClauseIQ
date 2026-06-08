@@ -76,7 +76,7 @@ Answer:
             model = "gemini-2.5-flash",
             contents = prompt,
             config = genai.types.GenerateContentConfig(
-                temperature=0.5,
+                temperature=0.7,
                 max_output_tokens=2000
             )
         )
